@@ -6,7 +6,7 @@ PKG_RELEASE:=$(GLUON_BRANCH)
 
 PKG_BUILD_DIR := $(BUILD_DIR)/$(PKG_NAME)
 
-include $(INCLUDE_DIR)/gluon.mk
+include ../gluon.mk
 
 define Package/roamguide
   SECTION:=net
